@@ -67,5 +67,10 @@
         top: 12px;
         left: 15px;
         width: 40px;
-      }
+    }
+    .our_services{
+        margin-top: 80px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
   }
