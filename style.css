@@ -747,12 +747,6 @@ textarea:focus {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 767px) {
-  .header-area .nav-brand img {
-    max-width: 90px;
-  }
-}
-
 /* :: 6.0 Welcome Area CSS */
 .hero-area {
   position: relative;
