@@ -844,12 +844,6 @@ textarea:focus {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 1280px) {
-  .hero-area .hero_right img {
-    width: 100%;
-  }
-}
-
 .hero-slides {
   position: relative;
   z-index: 1;
@@ -1616,16 +1610,16 @@ textarea:focus {
 /** Contact banner start **/
 .contact_banner{
   background: #f75200;
-  padding: 3% 4%;
+  padding: 2% 4%;
   margin-top: 100px;
 }
 .contact_banner h1{
   color: #fff;
-  font-size: 55px;
+  font-size: 40px;
 }
 .right_contact{
   text-align: right;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .right_contact a{
   color: #fff;
@@ -2283,14 +2277,24 @@ textarea:focus {
   }
 }
 
+.copyright_section{
+  border-top: 2px solid #ff691e;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+.copyright_section p{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
 .footer-area .footer-social-info {
   padding-right: 15px;
 }
 
 .footer-area .footer-social-info a {
   display: inline-block;
-  color: #b6b6b6;
-  font-size: 13px;
+  color: #fff;
+  font-size: 17px;
   margin-right: 30px;
 }
 
@@ -2310,7 +2314,7 @@ textarea:focus {
 }
 
 .footer-area p a {
-  color: #4b4b4b;
+  color: #fff;
   font-weight: 600;
 }
 
