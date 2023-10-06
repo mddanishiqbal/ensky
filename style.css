@@ -844,6 +844,12 @@ textarea:focus {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 1280px) {
+  .hero-area .hero_right img {
+    width: 100%;
+  }
+}
+
 .hero-slides {
   position: relative;
   z-index: 1;
@@ -1619,7 +1625,7 @@ textarea:focus {
 }
 .right_contact{
   text-align: right;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .right_contact a{
   color: #fff;
