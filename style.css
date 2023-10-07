@@ -657,7 +657,8 @@ textarea:focus {
 }
 
 .header-area .delicious-main-menu .classy-navbar .nav-brand img {
-  width: 200px;
+  width: 120px;
+  margin-top: -8px !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1019,6 +1020,36 @@ textarea:focus {
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
+  height: 235px !important;
+}
+.our_services .features-small-item {
+  height: 350px !important;
+}
+.service_bottom{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #f75200;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  text-align: center;
+  padding: 2px 0px;
+}
+.service_bottom a{
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.features-small-item h1{
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  z-index: -1;
+  opacity: .1;
+  text-transform: uppercase;
 }
 
 .features-small-item:hover .icon {
@@ -1172,8 +1203,7 @@ textarea:focus {
 }
 .our_services .features-small-item {
   margin-top: 60px;
-  cursor: pointer;
-  /* display: block; */
+  cursor: pointer !important;
   background: transparent;
   height: 330px;
   border: 2px solid #e44c00;
@@ -1190,6 +1220,10 @@ textarea:focus {
   position: relative;
   margin-bottom: 30px;
   z-index: 1;
+}
+
+.our_services .features-small-item:hover{
+  margin-top: -10px !important;
 }
 
 .our_services .features-small-item .icon {
@@ -2235,7 +2269,7 @@ textarea:focus {
   font-size: 16px;
 }
 .footer_about img{
-  width: 240px;
+  width: 150px;
   margin-bottom: 25px;
 }
 .footer_contact h1{
@@ -2268,13 +2302,6 @@ textarea:focus {
   font-weight: 500 !important;
   color: #fff !important;
   margin-bottom: 0;
-}
-@media only screen and (max-width: 767px) {
-  .footer-area {
-    height: 150px;
-    border-top: 1px solid #ebebeb;
-    margin-top: 30px;
-  }
 }
 
 .copyright_section{
