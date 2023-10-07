@@ -7,8 +7,25 @@
     }
   }
   @media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .classy-navbar-toggler .navbarToggler {
+        display: inline-block;
+        cursor: pointer;
+        background: #f75200;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .classy-navbar-toggler .navbarToggler span{
+        background-color: #fff;
+    }
+    .header-area .nav-brand{
+        margin-top: 10px;
+    }
     .header-area .nav-brand img {
-        max-width: 150px;
+        max-width: 110px;
     }
     .header-area .top-header-area {
         padding: 10px 50px;
@@ -72,5 +89,11 @@
         margin-top: 80px;
         padding-top: 60px;
         padding-bottom: 20px;
+    }
+    .number_of_project{
+        margin-top: 50px;
+    }
+    .number_of_project .single-cool-fact {
+        margin-bottom: 50px;
     }
   }
