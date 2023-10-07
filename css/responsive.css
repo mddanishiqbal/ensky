@@ -10,13 +10,19 @@
     body{
         width: 100%;
     }
+    .header-area .delicious-main-menu .classy-navbar .classynav .contact_btn a{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 30px;
+        text-align: left;
+    }
     .classy-navbar-toggler .navbarToggler {
         display: inline-block;
         cursor: pointer;
         background: #f75200;
         color: #fff;
-        padding: 10px;
-        border-radius: 5px;
+        padding: 6px 10px 10px 10px;
+        border-radius: 0px;
     }
     .classy-navbar-toggler .navbarToggler span{
         background-color: #fff;
