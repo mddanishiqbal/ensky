@@ -1,153 +1,205 @@
-@media screen and (max-width: 1280px) {
-    .header-area .delicious-main-menu .classy-navbar .nav-brand img {
-        width: 300px;
-      }
-    .hero-area .hero_right img {
-      width: 100%;
-    }
+@media screen and (min-width: 1920px) {
+  .header-area .top-header-area {
+    height: 100px;
+    padding: 0px 120px;
+    padding-bottom: 0px !important;
   }
-  @media screen and (max-width: 768px) {
-    body{
-        width: 100%;
-    }
-    .header-area .delicious-main-menu .classy-navbar .classynav .contact_btn a{
-        margin-left: 0px;
-        width: 100%;
-        margin-top: 30px;
-        text-align: left;
-    }
-    .classy-navbar-toggler .navbarToggler {
-        display: inline-block;
-        cursor: pointer;
-        background: #f75200;
-        color: #fff;
-        padding: 6px 10px 10px 10px;
-        border-radius: 0px;
-    }
-    .classy-navbar-toggler .navbarToggler span{
-        background-color: #fff;
-    }
-    .header-area .nav-brand{
-        margin-top: 10px;
-    }
-    .header-area .nav-brand img {
-        max-width: 110px;
-    }
-    .header-area .top-header-area {
-        padding: 10px 50px;
-        padding-left: 0px;
-        text-align: left;
-    }
-    .breaking-news{
-        position: absolute;
-        left: 20px;
-        bottom: 10px;
-    }
-    .top-social-info{
-        position: absolute;
-        left: -15px;
-        bottom: -10px;
-    }
-    .header-area .delicious-main-menu {
-        position: relative;
-        width: 100%;
-        z-index: 100;
-        height: 90px;
-        padding: 0% 4%;
-    }
-    .hero-area .hero_left {
-        transform: translateY(15%);
-      }
-    .hero-area .hero_left h1 {
-        font-size: 28px;
-    }
-    .hero-area .hero_left p {
-        font-size: 15px;
-    }
-    .latest_updates input{
-        padding: 8px 12px;
-        width: 200px;
-    }
-    .latest_updates button{
-        padding: 8px 15px;
-      }
-    .hero-area .hero_right img {
-      width: 88%;
-      margin-left: 10px;
-      margin-top: 90px;
-    }
-    .home-feature {
-        margin-top: -100px;
-    }
-    .about_ensky h2{
-        margin-top: 50px;
-        font-size: 20px;
-        margin-left: 60px;
-    }
-    .about_ensky h2::before{
-        position: absolute;
-        margin-top: 50px;
-        top: 12px;
-        left: 15px;
-        width: 40px;
-    }
-    .about_ensky h1{
-        font-size: 35px;
-    }
-    .our_services{
-        margin-top: 80px;
-        padding-top: 60px;
-        padding-bottom: 20px;
-        z-index: 1;
-    }
-    .our_services h1{
-        font-size: 40px;
-    }
-    .number_of_project{
-        margin-top: 50px;
-    }
-    .number_of_project .single-cool-fact {
-        margin-bottom: 50px;
-    }
-    .why_choose_img{
-        margin-top: 100px;
-    }
-    .our-portfolio:after,
-    .our-portfolio:before{
-       display: none;
-       overflow: hidden;
-    }
-    .our-portfolio .owl-nav {
-        display: flex !important;
-        position: absolute;
-        top: -40px;
-        right: 35%;
-        max-width: 1320px;
-    }
-    .section-heading h1{
-        text-align: center;
-        font-size: 30px;
-    }
-    .section-heading h2{
-        text-align: center;
-    }
-    .section-heading h2::before{
-        left: 50px;
-    }
-    .mini {
-        min-height: 215px;
-        margin-top: 60px;
-    }
-    .contact_banner h1{
-        font-size: 25px;
-        text-align: center;
-    }
-    .right_contact {
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-    .footer_contact{
-        margin-top: 25px;
-    }
+  .header-area .top-header-area .breaking-news .ticker {
+    overflow: visible;
+    padding-bottom: 10px;
+    margin-bottom: 20px !important;
   }
+  .header-area .top-header-area .breaking-news .ticker ul li a {
+    font-size: 40px;
+  }
+  .header-area .top-header-area .top-social-info a {
+    font-size: 40px;
+    margin-right: 50px;
+  }
+  .header-area .delicious-main-menu {
+    height: 170px;
+    padding: 0px 120px;
+  }
+
+  .header-area .delicious-main-menu .classy-navbar .nav-brand img {
+    width: 340px !important;
+    margin-top: 50px !important;
+  }
+  .hero-area .hero_right img {
+    width: 100%;
+  }
+  .header-area .delicious-main-menu .classy-navbar .classynav > ul > li > a {
+    font-size: 36px;
+    margin-top: 70px;
+    height: 100%;
+    padding-top: 16px;
+  }
+  .sms_btn {
+    font-size: 36px !important;
+    margin-top: 70px;
+    height: 100%;
+    padding-top: 16px;
+    margin-left: 30px !important;
+  }
+  .whatsapp_btn {
+    font-size: 36px !important;
+    margin-top: 70px;
+    height: 100%;
+    padding-top: 16px;
+    margin-left: 30px !important;
+  }
+  .hero-area {
+    padding: 0px 120px;
+  }
+  .hero-area .hero_right img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .header-area .delicious-main-menu .classy-navbar .classynav .contact_btn a {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .classy-navbar-toggler .navbarToggler {
+    display: inline-block;
+    cursor: pointer;
+    background: #f75200;
+    color: #fff;
+    padding: 6px 10px 10px 10px;
+    border-radius: 0px;
+  }
+  .classy-navbar-toggler .navbarToggler span {
+    background-color: #fff;
+  }
+  .header-area .nav-brand {
+    margin-top: 10px;
+  }
+  .header-area .nav-brand img {
+    max-width: 110px;
+  }
+  .header-area .top-header-area {
+    padding: 10px 50px;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .breaking-news {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+  }
+  .top-social-info {
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+  }
+  .header-area .delicious-main-menu {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    height: 90px;
+    padding: 0% 4%;
+  }
+  .hero-area .hero_left {
+    transform: translateY(15%);
+  }
+  .hero-area .hero_left h1 {
+    font-size: 28px;
+  }
+  .hero-area .hero_left p {
+    font-size: 15px;
+  }
+  .latest_updates input {
+    padding: 8px 12px;
+    width: 200px;
+  }
+  .latest_updates button {
+    padding: 8px 15px;
+  }
+  .hero-area .hero_right img {
+    width: 88%;
+    margin-left: 10px;
+    margin-top: 90px;
+  }
+  .home-feature {
+    margin-top: -100px;
+  }
+  .about_ensky h2 {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .about_ensky h2::before {
+    position: absolute;
+    margin-top: 50px;
+    top: 12px;
+    left: 15px;
+    width: 40px;
+  }
+  .about_ensky h1 {
+    font-size: 35px;
+  }
+  .our_services {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    z-index: 1;
+  }
+  .our_services h1 {
+    font-size: 40px;
+  }
+  .number_of_project {
+    margin-top: 50px;
+  }
+  .number_of_project .single-cool-fact {
+    margin-bottom: 50px;
+  }
+  .why_choose_img {
+    margin-top: 100px;
+  }
+  .our-portfolio:after,
+  .our-portfolio:before {
+    display: none;
+    overflow: hidden;
+  }
+  .our-portfolio .owl-nav {
+    display: flex !important;
+    position: absolute;
+    top: -40px;
+    right: 35%;
+    max-width: 1320px;
+  }
+  .section-heading h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .section-heading h2 {
+    text-align: center;
+  }
+  .section-heading h2::before {
+    left: 50px;
+  }
+  .mini {
+    min-height: 215px;
+    margin-top: 60px;
+  }
+  .contact_banner h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .right_contact {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .footer_contact {
+    margin-top: 25px;
+  }
+}
