@@ -649,7 +649,7 @@ textarea:focus {
 }
 
 .header-area .delicious-main-menu .classy-navbar .nav-brand img {
-  width: 150px;
+  width: 200px;
   margin-top: -10px !important;
 }
 
@@ -759,17 +759,7 @@ textarea:focus {
   z-index: -1;
 }
 
-.hero-area:before {
-  content: '';
-  background-image: url('./assets/slider-right-dec.jpg');
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  top: 60px;
-  width: 680px;
-  height: 597px;
-  z-index: -1;
-}
+
 .hero-area .hero_left {
   transform: translateY(25%);
 }
